@@ -1,0 +1,128 @@
+/**
+*
+* Jordan Cook - Assignment 2
+*
+*/
+
+/**
+* Base Styles
+*/
+
+* {
+	font-family: 'Roboto Slab', serif;
+}
+
+h1, h2, h3, h4, h5, h6, legend, label {
+	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+	border-left: 3px solid #009933;
+	padding-left: 6px;
+}
+
+select, input {
+	width: 80%;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+	box-sizing: content-box;
+	padding: 2px 0 2px 4px;
+	border: 1px solid #000;
+}
+
+label {
+	width: 80%;
+	float: left;
+	margin: 8px 0;
+	font-weight: 600;
+	letter-spacing: .1em;
+}
+
+legend {
+	font-size: 24px;
+	font-weight: 600;
+	letter-spacing: .1em;
+}
+
+fieldset {
+	border-radius: 30px;
+}
+
+/**
+* Layout Styles
+*/
+
+.container {
+	max-width: 800px;
+	margin: auto;
+}
+
+.first {
+	clear: both;
+}
+
+.one-half {
+	float: left;
+	width: 45%;
+    padding-left: 38px;
+}
+
+.clear {
+	clear: both;
+}
+
+.sub-container {
+	text-align: center;
+	padding: 24px 0;
+}
+
+#login_form fieldset {
+	width: 50%;
+	margin: auto;
+}
+
+#login_form input#username,
+#login_form input#password {
+	width: 98%;
+}
+
+#login_form input#login_button {
+	display: block;
+}
+
+/**
+* Color/Text Styles
+*/
+
+.error-msg {
+	display: block;
+	color: red;
+	font-size: 12px;
+}
+
+#order_button,
+#login_button {
+	width: 20%;
+	background-color: #009933;
+	border: none;
+	padding: 16px 12px;
+	font-size: 18px;
+	border-radius: 10px;
+	color: #fff;
+}
+
+#login_button {
+	margin: 12px auto;
+}
+
+#order_button:hover,
+#login_button:hover {
+	background-color: #006633;
+	cursor: pointer;
+}
+
+#output {
+	text-align: center;
+	font-size: 1.3em;
+}
